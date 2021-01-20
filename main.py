@@ -1,8 +1,8 @@
 L=[]
 x = 1
 while True:
-    n = str(input("Digite a %sº posição ou 0 para sair: "% x))
-    if n == "s":
+    n = str(input("Digite a %sº posição ou digite sair para sair da aplicação: "% x))
+    if n == "sair":
         break
     else:
         L.append(n)
